@@ -1,0 +1,12 @@
+[
+  {
+    "category": "function",
+    "resourceName": "zxdemoapp52843b07",
+    "service": "Lambda"
+  },
+  {
+    "category": "api",
+    "resourceName": "api3a62582d",
+    "service": "API Gateway"
+  }
+]

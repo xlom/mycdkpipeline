@@ -1,0 +1,30 @@
+{
+  "stackName": "amplify-zxdemoapp-dev-182328",
+  "props": {
+    "templateFile": "root-stack-template.json",
+    "parameters": {
+      "AuthRoleName": "amplify-zxdemoapp-dev-182328-authRole",
+      "UnauthRoleName": "amplify-zxdemoapp-dev-182328-unauthRole",
+      "DeploymentBucketName": "amplify-zxdemoapp-dev-182328-deployment"
+    },
+    "preserveLogicalIds": true,
+    "loadNestedStacks": {
+      "apiapi3a62582d": {
+        "templateFile": "api/api3a62582d/api3a62582d-cloudformation-template.json",
+        "parameters": {
+          "env": "dev"
+        },
+        "preserveLogicalIds": true,
+        "loadNestedStacks": {}
+      },
+      "functionzxdemoapp52843b07": {
+        "templateFile": "function/zxdemoapp52843b07/zxdemoapp52843b07-cloudformation-template.json",
+        "parameters": {
+          "env": "dev"
+        },
+        "preserveLogicalIds": true,
+        "loadNestedStacks": {}
+      }
+    }
+  }
+}
